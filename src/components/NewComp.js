@@ -38,7 +38,7 @@ class NewComp extends Component {
         <h3 style={this.styles}>{this.state.message}</h3>
         <button onClick={this.ButtonChange}>{this.state.sub}</button>
         <p>
-            <img src={this.state.imageUrl} onClick={this.imageChange} style={{width: "30px", height: '30px'}}  alt='bell'/>
+            <img src={this.state.imageUrl} onClick={this.imageChange} style={{width: "30px", height: '30px'}}  alt='bell icon'/>
         </p>
       </div>
     )
