@@ -3,6 +3,7 @@ import ClassComp from './components/ClassComp';
 import ClassProps from './components/ClassProps';
 import FunctionalComp from './components/FunctionalComp';
 import ParentComp from './components/ParentComp';
+import FunctionProp from './components/FunctionProp';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <ParentComp />
       {/* child props used when components do not know about their children ahead of time e.g coming frm request */}
       <ClassProps name='Shadoom'><p>Child component</p></ClassProps>
+      <FunctionProp name='B2K' place='Nairobi' />
     </div>
   );
 }
