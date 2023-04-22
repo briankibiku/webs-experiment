@@ -1,5 +1,6 @@
 import './App.css';
 import ClassComp from './components/ClassComp';
+import ClassProps from './components/ClassProps';
 import FunctionalComp from './components/FunctionalComp';
 import ParentComp from './components/ParentComp';
 
@@ -10,6 +11,8 @@ function App() {
       <ClassComp />
       <FunctionalComp />
       <ParentComp />
+      {/* child props used when components do not know about their children ahead of time e.g coming frm request */}
+      <ClassProps name='Shadoom'><p>Child component</p></ClassProps>
     </div>
   );
 }
